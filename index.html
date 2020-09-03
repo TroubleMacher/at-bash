@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset=utf-8>
+		<title>חילופי אתב"ש</title>
+		<link rel="stylesheet" type="text/css" href="atbash.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+		<script type="text/javascript" src="AtBashLib.js"></script>
+		<script type="text/javascript" src="AtBashApp.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176872335-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176872335-1');
+</script>
+	</head>
+	<body dir="rtl" lang="he">
+		<h1 class="center">הצפנת חילופי אותיות אתב"ש (ואחרות)</h1>
+		<div class="center" ng-app="atbash" ng-controller="encriptor">
+			<select ng-model="encription" ng-change="encriptChange()">
+				<option ng-repeat="e in encriptions" value="{{$index}}">{{e.name}}</option>
+			</select>
+			<br>
+			<textarea class="textbox" placeholder="הקלידו את הטקסט כאן" ng-model="srcTxt"></textarea>
+			<br>
+			<textarea class="textbox" disabled>{{destTxt()}}</textarea>
+		</div>
+	</body>
+</html>
