@@ -39,24 +39,3 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 }(window.angular, window.AtBashLib));
 
 }
-/*
-     FILE ARCHIVED ON 01:08:25 Jan 29, 2019 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:26:57 Aug 31, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  LoadShardBlock: 955.204 (3)
-  exclusion.robots: 0.208
-  exclusion.robots.policy: 0.194
-  captures_list: 1159.071
-  PetaboxLoader3.datanode: 589.539 (4)
-  CDXLines.iter: 24.864 (3)
-  PetaboxLoader3.resolve: 680.771 (2)
-  load_resource: 493.203
-  esindex: 0.015
-  RedisCDXSource: 174.037
-*/
