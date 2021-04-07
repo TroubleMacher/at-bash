@@ -1,7 +1,7 @@
 import delegate from 'delegate-it';
 
 import AtBashLib from './at-bash-lib.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 
 function changeText() {
 	const functionType = document.querySelector('.form-select').value;
