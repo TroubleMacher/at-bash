@@ -25,7 +25,7 @@
   },
   "homepage": "https://TroubleMacher.github.io/at-bash/",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta2",
+    "bootstrap": "^5.0.0-beta3",
     "delegate-it": "^2.0.2"
   },
   "devDependencies": {

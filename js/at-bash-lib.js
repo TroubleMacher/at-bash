@@ -1,6 +1,6 @@
 export default class AtBashLib {
 	constructor(text) {
-		this.text = text
+		this.text = text;
 		const alefBet = 'אבגדהוזחטיכלמנסעפצקרשת';
 		const reverseAlefBet = 'תשרקצפעסנמלכיטחזוהדגבא';
 		// Var manzapach = "מםנןצץפףכך";
@@ -70,7 +70,7 @@ export default class AtBashLib {
 		output: the token encripted using the permutation
 		*/
 		function permToken(t, p) {
-			if (t.length == 1) {
+			if (t.length === 1) {
 				return permChar(t, p);
 			}
 

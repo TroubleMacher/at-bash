@@ -1,0 +1,30 @@
+body {
+	min-height: 100vh;
+	font-family: "Mukta Malar", Arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #f5f9ff;
+}
+
+textarea {
+	padding: 9px;
+	border: solid 1px #e5e5e5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	min-width: 100%;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left 25,
+		from(#fff),
+		color-stop(4%, #eee),
+		to(#fff)
+	);
+	box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+	line-height: 150%;
+	height: 200px !important;
+}
