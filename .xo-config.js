@@ -3,10 +3,6 @@ module.exports = {
 	envs: [
 		'browser'
 	],
-	plugins: [
-		"unicorn"
-	],
-	extends: "xo-react",
 	globals: [
 		'browser',
 	],
