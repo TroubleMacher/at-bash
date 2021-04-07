@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function changeText() {
     const functionType = document.querySelector(".form-select").value;
-    const {value} = document.querySelector('#entry')
+    const {value} = document.querySelector('#entry');
     document.querySelector("#display").value = new AtBashLib(value)[functionType]()
 }
 
