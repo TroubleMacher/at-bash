@@ -1,4 +1,4 @@
-import AtBashLib from './at-bash-lib.js';
+import AtBashLib from './at-bash-lib.mjs';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 
 function changeText() {

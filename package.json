@@ -7,7 +7,7 @@
     "last 1 Chrome version",
     "last 1 Firefox version"
   ],
-  "outputFormat": "global",
+  "outputFormat": "esmodule",
   "scripts": {
     "start": "parcel index.html",
     "watch": "parcel watch index.html",
