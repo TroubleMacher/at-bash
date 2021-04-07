@@ -29,22 +29,7 @@
     "delegate-it": "^2.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@parcel/optimizer-cssnano": "^2.0.0-nightly.598",
-    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.598",
-    "@parcel/packager-css": "^2.0.0-nightly.598",
-    "@parcel/packager-html": "^2.0.0-nightly.598",
-    "@parcel/transformer-css": "^2.0.0-nightly.598",
-    "@parcel/transformer-html": "^2.0.0-nightly.598",
-    "@parcel/transformer-postcss": "^2.0.0-nightly.598",
-    "@parcel/transformer-posthtml": "^2.0.0-nightly.596",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint-config-xo-react": "^0.23.0",
-    "eslint-plugin-unicorn": "github:sindresorhus/eslint-plugin-unicorn#main",
-    "parcel": "^2.0.0-nightly.635",
-    "postcss": "^8.2.6",
+    "parcel": "^2.0.0-nightly.596",
     "xo": "^0.37.1"
   }
 }
