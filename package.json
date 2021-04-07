@@ -28,7 +28,7 @@
     "bootstrap": "^5.0.0-beta3"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.596",
-    "xo": "^0.37.1"
+    "parcel": "^2.0.0-nightly.635",
+    "xo": "^0.38.2"
   }
 }
