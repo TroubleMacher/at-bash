@@ -1,5 +1,3 @@
-import delegate from 'delegate-it';
-
 import AtBashLib from './at-bash-lib.js';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 
@@ -9,5 +7,5 @@ function changeText() {
 	document.querySelector('#display').value = new AtBashLib(value)[functionType]();
 }
 
-delegate(document, '#entry', 'input', changeText);
-delegate(document, '.form-select', 'change', changeText);
+document.querySelector('#entry').addEventListener('input', changeText);
+document.querySelector('.form-select').addEventListener('change', changeText);
