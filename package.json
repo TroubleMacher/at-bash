@@ -1,0 +1,50 @@
+{
+  "name": "at-bash",
+  "version": "1.0.0",
+  "description": "At Bash",
+  "browser": "dist/index.html",
+  "browserslist": [
+    "last 1 Chrome version",
+    "last 1 Firefox version"
+  ],
+  "outputFormat": "global",
+  "scripts": {
+    "start": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "demo:build": "parcel build --public-url ./ index.html --detailed-report 0 --no-source-maps",
+    "build": "parcel build index.html --no-content-hash --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TroubleMacher/at-bash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TroubleMacher/at-bash/issues"
+  },
+  "homepage": "https://TroubleMacher.github.io/at-bash/",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "delegate-it": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.598",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.598",
+    "@parcel/packager-css": "^2.0.0-nightly.598",
+    "@parcel/packager-html": "^2.0.0-nightly.598",
+    "@parcel/transformer-css": "^2.0.0-nightly.598",
+    "@parcel/transformer-html": "^2.0.0-nightly.598",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.598",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.596",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint-config-xo-react": "^0.23.0",
+    "eslint-plugin-unicorn": "github:sindresorhus/eslint-plugin-unicorn#main",
+    "parcel": "^2.0.0-nightly.635",
+    "postcss": "^8.2.6",
+    "xo": "^0.37.1"
+  }
+}
