@@ -1,5 +1,5 @@
-import AtBashLib from './at-bash-lib.mjs';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+import AtBashLib from './at-bash-lib.js';
 
 function changeText() {
 	const functionType = document.querySelector('.form-select').value;

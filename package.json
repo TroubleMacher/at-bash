@@ -2,11 +2,13 @@
   "name": "at-bash",
   "version": "1.0.0",
   "description": "At Bash",
-  "browser": "dist/index.html",
-  "browserslist": [
-    "last 1 Chrome version",
-    "last 1 Firefox version"
-  ],
+  "targets": {
+    "modern": {
+      "engines": {
+        "browsers": "last 2 versions"
+      }
+    }
+  },
   "outputFormat": "esmodule",
   "scripts": {
     "start": "parcel index.html",
@@ -25,10 +27,10 @@
   },
   "homepage": "https://TroubleMacher.github.io/at-bash/",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta3"
+    "bootstrap": "^5.2.3"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.635",
-    "xo": "^0.38.2"
+    "parcel": "^2.8.3",
+    "xo": "^0.54.1"
   }
 }
